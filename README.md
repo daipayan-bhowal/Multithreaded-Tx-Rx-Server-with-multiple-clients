@@ -5,5 +5,8 @@ Server compilation:
 g++ -g -pthread Multithreaded-server.cpp -o Multithreaded-server
 
 Client compilation:
-g++ client.cpp
+g++ client.cpp -o client
+
+Run ./Multithreaded-server on one terminal
+open another terminal and run ./client
 
